@@ -4,11 +4,12 @@
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "nodemon server"
 	},
 	"dependencies": {
-		"express": "^5.0.0-alpha.2",
-		"cors": "^2.8.1"
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^5.0.0-alpha.2"
 	},
 	"engines": {
 		"node": "4.4.5"
@@ -22,5 +23,8 @@
 		"hyperdev",
 		"express"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
 }
